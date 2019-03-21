@@ -61,7 +61,7 @@
 
 	<tx:annotation-driven transaction-manager="myTransactionManager" />
 
-	<!-- Add support for reading web resources: css, images, js, etc ... -->
+	<!-- Add support for reading web resources: css, images, js, etc ..... -->
 	<mvc:resources location="/resources/" mapping="/resources/**" cache-period="31556926"></mvc:resources>
 
 </beans>
