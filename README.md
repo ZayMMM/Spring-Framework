@@ -1,2 +1,2 @@
 # Spring-Framework
-This's demo project for Spring Framework
+Demo project for Spring Framework
