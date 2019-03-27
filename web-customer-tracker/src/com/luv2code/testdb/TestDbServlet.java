@@ -22,7 +22,6 @@ public class TestDbServlet extends HttpServlet {
      * Default constructor. 
      */
     public TestDbServlet() {
-        // TODO Auto-generated constructor stub
     }
 
 	/**
