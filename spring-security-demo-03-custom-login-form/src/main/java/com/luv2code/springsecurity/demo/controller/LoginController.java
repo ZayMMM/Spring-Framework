@@ -8,6 +8,22 @@ public class LoginController {
 
 	@GetMapping("/showMyLoginPage")
 	public String showMyLoginPage() {
-		return "plain-login";
+		// return "plain-login";
+		return "fancy-login";
+	}
+
+	@GetMapping("/leaders")
+	public String showLeaders() {
+		return "leaders";
+	}
+
+	@GetMapping("/system")
+	public String showAdmin() {
+		return "system";
+	}
+
+	@GetMapping("/access-denied")
+	public String showAccessDenied() {
+		return "access-denied";
 	}
 }
