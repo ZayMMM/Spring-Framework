@@ -15,6 +15,7 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		// add our user for in memory authentication
+		// withDefaultPasswordEncoder() -> deprecate 
 		UserBuilder user = User.withDefaultPasswordEncoder();
 		
 		auth.inMemoryAuthentication()
